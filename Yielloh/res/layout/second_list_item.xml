@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/second_list_item_selector"
+    android:paddingBottom="17dp"
+    android:paddingTop="17dp" >
+
+    <ImageView
+        android:id="@+id/imgNavigator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="18dp"
+        android:src="@drawable/plus_white" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtChapno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtChapter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imgNavigator"
+        android:layout_toRightOf="@id/txtChapno"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" >
+    </TextView>
+
+</RelativeLayout>

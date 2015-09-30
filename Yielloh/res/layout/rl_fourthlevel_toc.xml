@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlfourthlevelToc"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fl_header_bg" >
+
+    <ImageView
+        android:id="@+id/imgFLTocPrev"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:src="@drawable/sub_toc_prev_click"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imgFLTocNext"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/sub_toc_next_click" />
+
+    <ImageView
+        android:id="@+id/imgFLTocBookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:layout_toLeftOf="@id/imgFLTocNext"
+        android:src="@drawable/fav_notick" />
+
+    <ImageView
+        android:id="@+id/imgFLTocNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/imgFLTocBookmark"
+        android:src="@drawable/note_notick" />
+
+    <TextView
+        android:id="@+id/txtFLChapHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_toLeftOf="@id/imgFLTocNote"
+        android:layout_toRightOf="@id/imgFLTocPrev"
+        android:gravity="left"
+        android:text="@string/app_name"
+        android:textColor="@color/text_selector_1"
+        android:textSize="11.5sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

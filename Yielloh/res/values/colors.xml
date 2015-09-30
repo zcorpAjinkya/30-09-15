@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APP8 Color -->
+    <color name="FL_start_color">#f0960c</color>
+    <color name="FL_end_color">#dd8a0b</color>
+    
+    <color name="SL_start_color">#f6ae41</color>
+    <color name="SL_end_color">#f6b654</color>
+    
+    <color name="TL_start_color">#f7be67</color>
+    <color name="TL_end_color">#f8c679</color>
+    
+    <color name="ForthL_start_color">#F7816E</color>
+    <color name="ForthL_end_color">#F79F90</color>
+    
+    <color name="pressed_color">#f0960c</color>
+    
+    <color name="home_toc_normal">#1388E8</color>
+    <color name="home_toc_pressed">#1388E8</color>
+    
+    <color name="home_search_normal">#FFFFFF</color>
+    <color name="home_search_pressed">#FFFFFF</color>
+    
+    <color name="home_bar_normal">#F93919</color>
+    <color name="home_bar_pressed">#F93919</color>
+    
+    <color name="home_inter_normal">#ED006C</color>
+    <color name="home_inter_pressed">#ED006C</color>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tools_child_list_selector"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+    <ImageView
+        android:id="@+id/imgCountryIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="18dp"
+        android:src="@drawable/right_black"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgNavigator"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="14dp"
+        android:src="@drawable/right_black" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtMainlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/imgNavigator"
+        android:paddingLeft="20dp"
+        android:text="Home"
+        android:textColor="@color/text_selector_1"
+        android:textSize="14sp" >
+    </TextView>
+
+</RelativeLayout>

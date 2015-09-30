@@ -1,0 +1,58 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/right_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff7200" >
+
+    <!-- Framelayout to display Fragments -->
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#ff7200"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="100"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:weightSum="100" >
+
+            <GridView
+                android:id="@+id/drawer_left"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_gravity="start"
+                android:layout_weight="90"
+                android:columnWidth="100dp"
+                android:gravity="center_vertical"
+                android:numColumns="2"
+                android:padding="5dp" >
+            </GridView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                style="@style/white_title_text_without_bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="10"
+                android:gravity="center"
+                android:text="@string/logout" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

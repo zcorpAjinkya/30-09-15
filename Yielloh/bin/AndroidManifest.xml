@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zcorp.yielloh"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.MainActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.Quote"
+            android:configChanges="locale|orientation"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.LoginPreviewScreen"
+            android:configChanges="locale|orientation" >
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.AddInterests"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.MyDialog" >
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.AddPostView"
+            android:configChanges="locale|orientation"
+            android:parentActivityName="com.zcorp.yielloh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zcorp.yielloh.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.UpdateProfile"
+            android:configChanges="locale|orientation" >
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.LoginActivity"
+            android:configChanges="locale|orientation"
+            android:windowSoftInputMode="adjustPan|adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.RegisterActivity"
+            android:configChanges="locale|orientation"
+            android:windowSoftInputMode="adjustPan|adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.RegisterActivity1"
+            android:configChanges="locale|orientation" >
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.InterestList"
+            android:configChanges="locale|orientation|keyboard"
+            android:windowSoftInputMode="adjustPan|adjustResize|adjustNothing|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.zcorp.yielloh.AddPeopleFollowers"
+            android:configChanges="locale|orientation|keyboard"
+            android:windowSoftInputMode="adjustPan|adjustResize|adjustNothing|stateHidden" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="app_green">#21BBA6</color>
+    <color name="list_item_title1">#fff</color>
+    <color name="list_item_title">#000</color>
+    <color name="list_background">#D996caf9</color>
+    <color name="backgroung_color">#f0960c</color>
+    <color name="oredred_list_background">#D996caf9</color>
+    <color name="list_background_pressed">#0197fd</color>
+    <color name="list_divider">#ffffff</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#33acfe</color>
+    <color name="grey">#888888</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="primaryColor">#EA80FC</color>
+    <color name="primaryColorDark">#AA00FF</color>
+    <color name="accentColor">#AD7A99</color>
+    <color name="menu_row_selected">#80a51842</color>
+    <color name="menu_row_unselected">#a51842</color>
+    <color name="actionbar_background_color_share">#601000</color>
+    <color name="actionbar_background_color_mainactivity">#733a59</color>
+    <color name="action_bar">#0169c9</color>
+
+</resources>

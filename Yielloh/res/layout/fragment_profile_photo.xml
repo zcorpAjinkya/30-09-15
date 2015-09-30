@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:fillViewport="true"
+        android:paddingBottom="10dp"
+        android:weightSum="100" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" >
+
+            <TextView
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="56dp"
+                android:text="@string/profile_picture_text"
+                android:textColor="#fff" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:layout_below="@+id/editText1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/profile_man" />
+
+            <ImageView
+                android:id="@+id/imagePlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/plus_sign" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="#c2450d"
+            android:text="@string/skip"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="#c2450d"
+            android:text="@string/next"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Ajinkya/Downloads/ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar/ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ajinkya/Downloads/httpmime-4.0-alpha3.jar/httpmime-4.0-alpha3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ajinkya/Downloads/apache-mime4j-0.3-bin/apache-mime4j-0.3/apache-mime4j-0.3.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

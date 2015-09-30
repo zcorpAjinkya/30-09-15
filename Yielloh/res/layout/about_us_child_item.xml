@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <com.bbi.nephrology_pocket.CustomWebView
+        android:id="@+id/webViewAboutus"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:fitsSystemWindows="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:padding="15dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="none" />
+
+</RelativeLayout>

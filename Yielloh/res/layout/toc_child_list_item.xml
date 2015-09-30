@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_toc_child_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:padding="2dp" >
+
+    
+    <WebView
+		android:id="@+id/webViewAboutus"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:fitsSystemWindows="true"
+		android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:scrollbarStyle="insideOverlay"
+		android:scrollbars="none"
+		android:clickable="false"
+		android:padding="15dp">
+	</WebView>
+</RelativeLayout>

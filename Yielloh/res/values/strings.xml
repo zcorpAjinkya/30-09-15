@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yielloh</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_string">Welcome, to Yielloh!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="cont">Continue</string>
+    <string name="new_account">New Account</string>
+    <string name="single_msg_dialog">Please make sure that you are connected to the internet and Also Check that Your GPS is ON.</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="capital_name">USER NAME</string>
+    <string name="capital_email">EMAIL</string>
+    <string name="welcome">Welcome!</string>
+    <string name="interest_caption">INTERESTS</string>
+    <string name="interest_number">0</string>
+    <string name="followers_caption">FOLLOWERS</string>
+    <string name="followers_number">0</string>
+    <string name="interest_followers_caption">Your Interests and followers are</string>
+    <string name="capital_password">PASSWORD</string>
+    <string name="capital_confirm_password">CONFIRM PASSWORD</string>
+    <string name="capital_gender">GENDER</string>
+    <string name="capital_birthday">BIRTHDAY</string>
+    <string name="password">Password</string>
+    <string name="logout">LOGOUT</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="back">Back</string>
+    <string name="add">Add</string>
+    <string name="profile_picture_text">1. Start by uploading your profile picture</string>
+    <string name="cover_picture_text">2. Great! Now Upload Your Cover photo</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="birthday_hint">Chose Birthday Date</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="social_login">Social Login</string>
+    <string name="not_have_an_accont">DON\&#39;T HAVE AN ACCOUNT?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="connect_with">Connect with..</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>My Profile</item>
+        <item>Blog</item>
+        <item>My Interests</item>
+        <item>Quotes</item>
+        <item>My Photos</item>
+        <item>Timeline</item>
+        <item>Setting</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/home_icon</item>
+        <item>@drawable/profile_icon</item>
+        <item>@drawable/blog</item>
+        <item>@drawable/my_interets</item>
+        <item>@drawable/quote</item>
+        <item>@drawable/my_photos</item>
+        <item>@drawable/timeline</item>
+        <item>@drawable/setting</item>
+    </array>
+
+    <!-- License checking status messages -->
+    <string name="check_license">Check license</string>
+    <string name="checking_license">Checking license &#8230;</string>
+    <string name="sorry">\tSorry!</string>
+    <string name="dont_allow">This application cannot be started.\nPlease purchase it from Google play.</string>
+    <string name="allow">Allow the user access</string>
+    <string name="application_error">Application error: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Application not licensed</string>
+    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Google Play.</string>
+    <string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
+    <string name="buy_button">Buy app</string>
+    <string name="retry_button">Retry</string>
+    <string name="quit_button">Exit</string>
+    <string name="als_popup2">&#8226; Hochqualifizierte CPR sicherstellen: Frequenz, Tiefe, Entlastung\n
+										&#8226; Handlungen planen vor CPR-Unterbrechung\n
+										&#8226; Sauerstoff geben\n
+										&#8226; Atemwegsmanagement und Kapnographie in Erw&#228;gung ziehen\n
+										&#8226; Herzdruckmassage ohne Unterbrechung, wenn Atemweg gesichert\n
+										&#8226; Gef&#228;ßzugang: intraven&#246;s, intraoss&#228;r\n
+										&#8226; Adrenalin alle 3–5 min injizieren\n
+										&#8226; Reversible Ursachen behandeln</string>
+    <string name="download_info_de">Dies ist ein Download Link, der dazu f&#252;hrt da&#223; die entsprechende Datei auf Ihrem Ger&#228;t unter Downloads abgespeichert wird.</string>
+    <string name="download_info_en">Dies ist ein Download Link, der dazu f&#252;hrt da&#223; die entsprechende Datei auf Ihrem Ger&#228;t unter Downloads abgespeichert wird.</string>
+    <string name="empty_search_str_en">word not found!</string>
+    <string name="empty_search_str_de">Das gesuchte Wort konnte nicht gefunden werden</string>
+    <string name="empty_search_str_header_en">Sorry!</string>
+    <string name="empty_search_str_header_de">Sorry!</string>
+    <string name="vollsearchtext_de">Volltextsuche</string>
+    <string name="idxsearchText_de">Schlagwortsuche</string>
+    <string name="vollsearchtext_en">Index search</string>
+    <string name="idxsearchText_en">Full text search</string>
+    <string name="menu_settings">Settings</string>
+    <string name="emp_text">Please make sure that you are connected to the internet.</string>
+    <string name="invalidError">Invalid Entry\nErrors!</string>
+
+    <!-- Inhalt strings -->
+    <string name="home_inhalt">Inhaltsverzeichnis</string>
+    <string name="HomeToc">Table of Contents</string>
+    <string name="home_settings">Settings</string>
+    <string name="home_lastview">Last\nViewed</string>
+    <string name="tocHeader_en">Inhaltsverzeichnis</string>
+    <string name="tocHeader_de">Inhalt</string>
+    <string name="home_inter">ICD 10</string>
+    <string name="home_UserGuide">User Guide</string>
+    <string name="UserGuideHeader_en">User Guide</string>
+    <string name="UserGuideHeader_de">Benutzung</string>
+    <!-- Home strings -->
+    <string name="home_feedback">Feedback</string>
+    <string name="home_empfehlen">Empfehlen</string>
+    <string name="home_bewerten">Bewerten</string>
+    <string name="home_SocialMedia">Social Media</string>
+    <string name="home_medicine">Medikamente</string>
+    <string name="home_essentials">Essentials</string>
+    <string name="home_search">Suche</string>
+    <string name="home_about">Imprint</string>
+    <string name="home_zul">Zuletzt\ngeöffnet</string>
+    <string name="home_abk">Abk&#252;rzungen</string>
+    <string name="abk">Abk.</string>
+    <string name="home_notfalle">Notf&#228;lle</string>
+    <string name="home_entwicklung">Entwicklung</string>
+    <string name="home_benut">Benutzung</string>
+    <string name="home_bbatools">BBTools</string>
+
+    <!-- Notes strings English -->
+    <string name="en_notes_header">Notes</string>
+    <string name="en_cancel">Cancel</string>
+    <string name="en_Search">Search</string>
+    <string name="en_Suche">Suche</string>
+    <string name="notes_empty_de">Diese Notiz hat keinen Inhalt</string>
+    <string name="notes_empty_en">Empty notes cannot be saved. Press Delete to exit note.</string>
+    <string name="ok">OK</string>
+    <string name="btn_ja">JA</string>
+
+    <!-- Notes strings German -->
+    <string name="de_notes_header">Notizen</string>
+    <string name="de_cancel">Abbrechen</string>
+    <!--
+    <string name="notes_empty">Diese Notiz hat keinen Inhalt</string>
+    <string name="single_msg_dialog">Select Language</string>
+    <string name="ok">OK</string>
+    <string name="btn_ja">JA</string>
+    -->
+
+
+    <!-- App Rator German -->
+    <string name="txt_AppRator_btn1_de">Bewerten</string>
+    <string name="txt_AppRator_btn2_de">Später erinnern</string>
+    <string name="txt_AppRator_btn3_de">Nein, danke</string>
+
+    <!-- App Rator English -->
+    <string name="txt_AppRator_btn1_en">Rate this app</string>
+    <string name="txt_AppRator_btn2_en">Remind me later</string>
+    <string name="txt_AppRator_btn3_en">No, thanks</string>
+    <string name="txt_visible">Die Hinweise habe ich zur Kenntnis genommen und akzeptiert.</string>
+    <string name="txt_invisible">Sie m&#252;ssen den Disclaimer lesen und akzeptieren bevor Sie diese App benutzen!</string>
+    <string name="txtAkzeptieren">Akzeptieren</string>
+    <string name="txt_disclaim">Wir weisen darauf hin, dass der Inhalt der vorliegenden App die Meinung der Autoren widerspiegelt, die nicht notwendigerweise mit der der Pfizer Pharma GmbH &#252;bereinstimmen muss.Diese App wird von der B&#246;rm Bruckmeier Verlag GmbH herausgegeben und entstand mit finanzieller Unterst&#252;tzung der Pfizer Pharma GmbH. Bei der Anwendung der genannten Arzneimittel richten Sie sich bitte nach der jeweils g&#252;ltigen Fachinformation.\nEs wird zudem darauf hingewiesen, dass bei den folgend genannten Nebenwirkungen der einzelnen Produkte / Substanzen kein Anspruch auf Vollst&#228;ndigkeit erhoben wird, in diesem Fall wird auf die Fachinformation verwiesen.</string>
+
+    <!-- Doc check login strings -->
+    <string name="doc_check_title">DocCheck Login</string>
+    <string name="doc_check_not_authorized">Login nicht erfolgreich, bitte erneut versuchen!</string>
+    <string name="progress_dialog_validating">Validating.....</string>
+    <string name="doc_check_success_report">OK</string>
+    <string name="doc_check_failed_report">No</string>
+    <string name="wifi_not_enabled">Es besteht keine Verbindung zum Internet. Bitte gehen sie online und versuchen es erneut.</string>
+    <string name="wifi_not_connected">Es besteht keine Verbindung zum Internet. Bitte gehen sie online und versuchen es erneut.</string>
+    <string name="wifi_error_title">Wifi Einstellungen</string>
+
+    <!-- Bookmarks strings -->
+    <string name="en_bookmark_header">Bookmarks</string>
+    <string name="de_bookmark_header">Favoriten</string>
+
+    <!-- Search strings -->
+    <string name="searchHeader_en">Search</string>
+    <string name="searchHeader_de">Suche</string>
+    <!-- History strings -->
+    <string name="history_over">No more history to display.</string>
+    <string name="history_over_en">No more history to display.</string>
+    <string name="history_over_de">Ende der History Liste. Keine weiteren Seiten gespeichert.</string>
+    <string name="history_title">History</string>
+    <string name="history_ok">OK</string>
+    <string name="leaveapptext">You are about to leave the\napplication, do you want to\ncontinue?</string>
+    <string name="pflichttext">Pflichttext</string>
+    <string name="tygacil_pflichtext">Tygacil</string>
+    <string name="ecalta_pflichtext">Ecalta</string>
+    <string name="vfend_pflichtext">VFEND</string>
+    <string name="zyvoxid_pflichtext">Zyvoxid</string>
+
+    <!-- BBTools strings English -->
+    <string name="en_bbitools_header">BBapps in Google Play</string>
+    <string name="en_bbitools_our_apps">Our apps for sale in the Google Play</string>
+    <string name="tools_news">NEWS</string>
+    <string name="en_tools_loading">Loading ...</string>
+    <string name="en_wifi_not_connected_title">Wi-Fi is not available</string>
+    <string name="en_wifi_not_connected_message">Use Wi-Fi to Data Access</string>
+    <string name="en_wifi_not_connected_settings">Settings</string>
+    <string name="en_about">Imprint</string>
+    <string name="de_about">Impressum</string>
+    <string name="home_chronic">Chronic Kidney Disease</string>
+    <string name="home_htn">HTN and RAS</string>
+    <string name="home_Interactive">Interactive \nTools</string>
+    <!-- BBTools strings German -->
+    <string name="de_bbitools_header">BBapps im Google Play</string>
+    <string name="de_bbitools_our_apps">Weitere BBapps im Google Play</string>
+    <string name="de_tools_loading">Laden...</string>
+    <string name="de_wifi_not_connected_title">Wi-Fi nicht verf&#252;gbar</string>
+    <string name="de_wifi_not_connected_message">Sie ben&#246;tigen Wi-Fi, um zum Google Play Store zu gelangen.</string>
+    <string name="de_wifi_not_connected_settings">Einstellungen</string>
+    <string name="de_wifi_not_connected_ok">OK</string>
+
+    <!-- Font Feature Text English -->
+    <string name="selectFont_en">Select Font Size</string>
+    <string name="fontNote_en">By using the above buttons you can select the font size of the content. This setting will be remembered for all successive sessions. </string>
+    <string name="smallFont_en">Small</string>
+    <string name="mediumFont_en">Medium</string>
+    <string name="largeFont_en">Large</string>
+    <string name="xlargeFont_en">x-large</string>
+
+    <!-- Data backup strings English -->
+
+    <string name="bbkonto_inprogress_en">Please wait...</string>
+    <string name="backupsubHeader_en">Backup</string>
+    <string name="auto_backup_en">Automatic Backup</string>
+    <string name="noDataToBackup_en">You have no notes or bookmarks to backup.</string>
+    <string name="auto_backup_text_en">We recommend to save all your notes/bookmarks on your memory card otherwise you could lose all your data in case of an app update or new installation.</string>
+    <string name="manual_backup_en">Manual Backup</string>
+    <string name="manual_backup_text_en">Manual Backup of notes/bookmarks on the memory card. We recommend to backup periodically all your notes/bookmarks.</string>
+    <string name="data_backup_uploading_en">Please wait...</string>
+    <string name="data_backup_downloading_en">Please wait...</string>
+    <string name="data_backup_header_en">Settings</string>
+    <string name="data_backup_list_msg_date_header_en">Last data Backup: </string>
+    <string name="sd_not_present_ok_en">OK</string>
+    <string name="backup_succes_title_en">Memory card</string>
+    <string name="backup_succes_en">Backup successful</string>
+    <string name="backup_document_create_success_en">Memory card file successfully written </string>
+    <string name="backup_restore_yes_no_en">There are notes/bookmarks on your memory card. Restore now?</string>
+    <string name="restore_succesfull_en">Restore Successful!</string>
+    <string name="backup_restore_title_en">There\'s no backup file on your memory card!</string>
+    <string name="backup_restore_warning_en">We recommend to save all your notes/bookmarks on your memory card otherwise you could lose all your data in case of an app update or new installation.Would you like to backup?</string>
+    <string name="backup_no_restore_warning_en">All your notes/bookmarks will be lost,if you do not restore them now.Restore now?</string>
+    <string name="backup_restore_b1_en">Later via backup</string>
+    <string name="backup_restore_b2_en">Yes</string>
+    <string name="nein_en">No</string>
+    <string name="ja_en">Yes</string>
+    <string name="no_sdcard_caution_en">Caution!</string>
+    <string name="no_sdcard_caution_text_en">here is no memory card
+				installed on your device!
+				Backup function not available!
+				Your notes/bookmarks can not be restored in case of an
+				update or new installation.
+				We recommend to insert
+				a memory card!
+				Please check the manual
+				of your device.</string>
+
+    <!-- Font Feature Text German -->
+    <string name="selectFont_de">Schriftgröße ändern</string>
+    <string name="fontNote_de">Hier können Sie die App-Schriftgröße anpassen. Ihre Auswahl wird gespeichert und bei allen weiteren Starts dieser App als Standard verwendet.</string>
+    <string name="smallFont_de">Klein</string>
+    <string name="mediumFont_de">Mittel</string>
+    <string name="largeFont_de">Groß</string>
+    <string name="xlargeFont_de">Sehr groß</string>
+
+    <!-- Data backup strings German -->
+
+    <string name="bbkonto_inprogress_de">Bitte warten...</string>
+    <string name="backupsubHeader_de">Backup</string>
+    <string name="auto_backup_de">Automatische Sicherung</string>
+    <string name="noDataToBackup_de">Sie haben noch keine Notizen/Favoriten erstellt. Daher kann auch noch kein Backup dieser Daten erfolgen.</string>
+    <string name="auto_backup_text_de">Mit der automatischen Sicherung werden Ihre Notizen/Lesezeichen automatisch t&#228;glich auf Ihrer Speicherkarte gespeichert.</string>
+    <string name="manual_backup_de">Manuelle Sicherung</string>
+    <string name="manual_backup_text_de">Mit der manuellen Sicherung werden Ihre Notizen/Lesezeichen einmalig auf Ihre Speicherkarte gesichert. Bitte denken Sie an eine regelm&#228;ßige Sicherung, um Ihre Backupdatei aktuell zu halten.</string>
+    <string name="data_backup_uploading_de">Daten&#252;bertragung l&#228;uft</string>
+    <string name="data_backup_downloading_de">Bitte warten...</string>
+    <string name="data_backup_header_de">Einstellungen</string>
+    <string name="data_backup_list_msg_date_header_de">Letzter Datenabgleich: </string>
+    <string name="sd_not_present_ok_de">OK</string>
+    <string name="backup_succes_title_de">Speicherkarte</string>
+    <string name="backup_succes_de">Backup erfolgreich</string>
+    <string name="backup_document_create_success_de">Speicherkarte Datei erfolgreich geschrieben </string>
+    <string name="backup_restore_yes_no_de">Es sind Notizen/Lesezeichen\nauf Ihrer Speicherkarte\nvorhanden.\nM&#246;chten Sie diese\nwiederherstellen?</string>
+    <string name="restore_succesfull_de">Daten wurden\nwiederhergestellt.</string>
+    <string name="backup_restore_title_de">Backup nicht aktiviert</string>
+    <string name="backup_restore_warning_de">Wir empfehlen Ihnen, Ihre\nNotizen/Lesezeichen auf einer\nSpeicherkarte zu sichern, ansons-\nten droht der Verlust Ihrer Daten\nbei einem Update oder einer\nerneuten Installation!\n\nWollen Sie den Service\naktivieren?</string>
+    <string name="backup_no_restore_warning_de">Wenn Sie Ihre Daten jetzt\nnicht wiederherstellen,\nsind sie unwiederbringlich\nverloren!\n\nWiederherstellen?</string>
+    <string name="backup_restore_b1_de">Sp&#228;ter via Backup</string>
+    <string name="backup_restore_b2_de">Aktivieren</string>
+    <string name="nein_de">Nein</string>
+    <string name="ja_de">Ja</string>
+    <string name="no_sdcard_caution_de">Achtung!</string>
+    <string name="no_sdcard_caution_text_de">In Ihrem Ger&#228;t befindet sich\n
+		keine Speicherkarte!\n
+		Backupfunktion nicht verf&#252;gbar!\n
+		Bei einem App-Update oder\n
+		einer Neuinstallation k&#246;nnen\n
+		Ihre Notizen/Lesezeichen nicht wiederhergestellt werden.\n\n
+		Wir empfehlen dringend, eine Speicherkarte in Ihrem Ger&#228;t einzusetzen!\n
+		Bitte lesen Sie die Gebrauchs-anweisung Ihres Ger&#228;tes!</string>
+
+</resources>

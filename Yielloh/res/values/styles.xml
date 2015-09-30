@@ -1,0 +1,71 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light"></style>
+
+    <style name="Theme.MyDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="welcome_string_style">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="button_caption_style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="linear_layout_style_for_login_screen_buttons">
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="white_text_with_bold">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="white_text_without_bold_edittext_hint">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="white_text_with_bold_edittext_hint_white">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="white_text_without_bold">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="white_title_text_without_bold">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="white_title_number_without_bold">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+
+    <style name="white_title_text_without_bold_size">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
